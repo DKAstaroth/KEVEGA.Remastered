@@ -1,1 +1,71 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Contacto/css/style4.css">
+    <title>DKAstaroth</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">EXPANDSTAR</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active" href="/index.html">INICIO</a></li>
+                    <li><a class="#" href="/SobreNosotros/sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a class="#" href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Escriba aqui...">
+                <a href="#"> <button class="btn">Buscar</button></a>
+            </div>
+        </div> 
+        <br>
+        <br>
+        <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <form autocomplete="off" onsubmit="onFormSubmit()">
+                            <div>
+                                <label for="names">Nombre</label>
+                                <input type="text" name="names" id="names">
+                            </div>
+                            <div>
+                                <label for="emaill">Correo</label>
+                                <input type="email" name="emaill" id="emaill">
+                            </div>
+                            <div>
+                                <label for="mens">Asunto</label>
+                                <input type="text" name="mens" id="mens">
+                            </div>
+        
+                            <div class="form_action--button">
+                                <input type="submit" value="Subir">
+                                <input type="reset" value="Resetear">
+                            </div>
+                        </form>
+        
+                        <td>
+                            <table class="list" id="storeList">
+                                <thead>
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Correo</th>
+                                        <th>Asunto</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+        
+                                </tbody>
+                            </table>
+                        </td>
+                    </td>
+                </tr>
+            </table>
+            <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
